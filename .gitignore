@@ -1,2 +1,6 @@
+# general ignore for node project
+node_modules
+
+# project specific ignores
 .env
 data
