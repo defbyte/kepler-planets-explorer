@@ -1,6 +1,5 @@
 const { parse } = require('csv-parse');
-const { createReadStream, createWriteStream } = require('fs');
-const { platform } = require('os');
+const { createReadStream } = require('fs');
 require('dotenv').config();
 
 const KEPLER_DATA_FILE_PATH = process.env.KEPLER_DATA_FILE_PATH
